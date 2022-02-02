@@ -1,0 +1,156 @@
+@import url(/css/nullstyles.css);
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&family=Roboto&display=swap");
+
+body {
+  background-image: url(/img/background.jpg);
+  background-size: cover;
+  background-repeat: repeat-x;
+}
+
+.container {
+  width: 50%;
+  min-width: 340px;
+  margin: 20px auto;
+
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+}
+
+.header {
+  display: table;
+
+  width: 100%;
+  height: 300px;
+
+  color: #fff;
+  background-color: #232323;
+}
+
+.header-body {
+  display: table-cell;
+
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+
+  letter-spacing: 4px;
+}
+
+.header-body h1 {
+  font-size: 50px;
+
+  margin-bottom: 20px;
+}
+
+.header-body h4 {
+  font-size: 20px;
+}
+
+.body {
+  display: flex;
+  margin-top: 70px;
+}
+
+.col-40 {
+  width: 40%;
+  margin: 0px 40px;
+}
+
+.col-60 {
+  width: 60%;
+  margin: 0px 40px;
+}
+
+.block {
+  margin-bottom: 50px;
+}
+
+.block-title {
+  color: #fff;
+  background-color: #232323;
+
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  padding: 8px 0;
+  margin-bottom: 40px;
+}
+
+.block-body {
+  color: #c4c4c9;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card-title {
+  color: #232323;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.date-range {
+  float: right;
+  text-transform: none;
+}
+
+.card-subtitle {
+  margin-bottom: 10px;
+  color: #7c7c7c;
+}
+
+.card-body {
+  color: #c4c4c9;
+}
+
+.skills-list {
+  color: #7c7c7c;
+  text-transform: uppercase;
+}
+
+.footer {
+  height: 50px;
+}
+
+@media (max-width: 1430px) {
+  .date-range {
+    display: block;
+    float: none;
+    margin: 5px 0px;
+  }
+}
+
+@media (max-width: 1430px) {
+  .container {
+    padding-bottom: 1px;
+  }
+
+  .body {
+    display: block;
+    margin: 50px 40px;
+  }
+
+  .col-40 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .col-60 {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-device-width: 1280px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+}

@@ -4,7 +4,6 @@
 body {
   background-image: url(/img/background.jpg);
   background-size: cover;
-  background-repeat: repeat-x;
 }
 
 .container {
@@ -13,7 +12,7 @@ body {
   margin: 20px auto;
 
   background-color: #fff;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+  box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.5);
 }
 
 .header {
@@ -116,7 +115,14 @@ body {
 }
 
 .footer {
-  height: 50px;
+  width: 100%;
+  color: #fff;
+  background-color: #232323;
+
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+  padding: 10px;
 }
 
 @media (max-width: 1430px) {
